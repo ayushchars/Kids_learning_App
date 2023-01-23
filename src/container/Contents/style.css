@@ -1,0 +1,181 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/* TABLE COMPONENT CSS */
+
+
+.table_container {
+    background-image: url("https://img.freepik.com/premium-vector/farm-animals-with-blank-sign-bamboo_43633-1394.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.table_container>h1 {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.table_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table_input>input {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.table>h1 {
+    margin: 4px;
+    font-size: 30px;
+
+}
+
+
+
+/* ALPHABATES COMPONNET CSS */
+
+
+.alpha_container {
+    background-image: url("https://img.pikbest.com/backgrounds/20220119/parents-meeting-border-pink-cartoon-background_6246790.jpg!bw700");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.alphas {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+}
+
+.alpha_content {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.alpha_content>h1 {
+    margin-top: 30px;
+    font-size: 100px;
+    color: transparent;
+
+}
+
+.alpha_content>h1:hover {
+    color: white;
+    background-color: tomato;
+    border-radius: 100vw;
+    /* transition: 2s; */
+}
+
+/* Colours */
+.colour_container {
+    background-image: url("https://media.istockphoto.com/id/1215291953/video/blue-sky-full-of-clouds-moving-right-to-left-cartoon-sky-animated-gradient-background-flat.jpg?s=640x640&k=20&c=KJbAfp-fhyxyLFOgZEEIkivmx88UkswRJMAmolVmNtA=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.colours {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+
+}
+
+.colors {
+    height: 200px;
+    color: black;
+    cursor: pointer;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+
+.colors>h1 {
+    text-transform: uppercase;
+}
+
+
+.colors:nth-child(1):hover {
+    color: black;
+    background-color: red;
+}
+
+.colors:nth-child(2):hover {
+    color: black;
+    background-color: yellow;
+}
+
+.colors:nth-child(3):hover {
+    color: black;
+    background-color: blue;
+}
+
+.colors:nth-child(4):hover {
+    color: black;
+    background-color: green;
+}
+
+.colors:nth-child(5):hover {
+    color: black;
+    background-color: pink;
+}
+
+.colors:nth-child(6):hover {
+    color: black;
+    background-color: orange;
+}
+
+.colors:nth-child(7):hover {
+    color: black;
+    background-color: purple;
+}
+
+.colors:nth-child(8):hover {
+    color: black;
+    background-color: grey;
+}
+
+.colors:nth-child(9):hover {
+    color: white;
+    background-color: black;
+}

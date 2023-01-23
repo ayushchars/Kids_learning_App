@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    background-image: url("https://img.freepik.com/free-vector/blank-sign-template-with-kids-having-party-park_1308-55407.jpg?w=1380&t=st=1674036869~exp=1674037469~hmac=c1749e8e1b8b3705dd0ac56126d0b047c054c09a9dc8b447e10db7efcdd8841b");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.Login_container {
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+}
+
+form {
+    margin-top: 60px;
+}
+
+
+.Login_Content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Login_Content>input {
+    width: 80%;
+    height: 50px;
+    margin: 3px;
+    font-size: 30px;
+    padding: 0 30px;
+    border-width: 0;
+    background-color: #FBEED0;
+}
+
+.Nav_container {
+    display: flex;
+    height: 50px;
+    background-color: cadetblue;
+    justify-content: space-between;
+}
+
+.Nav_Title {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nav_content {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.nav_content>a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

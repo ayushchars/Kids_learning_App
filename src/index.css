@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* *{
+    margin: 0;
+    padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+body{
+    background-image: url("https://img.freepik.com/free-vector/many-kids-climbing-up-rope_1308-2794.jpg?w=1380&t=st=1674035282~exp=1674035882~hmac=937f1389a5fef6945a1ba71c9bcc19d4056a4ef629356dd93d32513267280983");
+    overflow: hidden;
+ 
+} */
